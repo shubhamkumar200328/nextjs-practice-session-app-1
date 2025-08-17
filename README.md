@@ -1,2 +1,2 @@
-# nextjs-practice-session-app-1
-These folders are the practiced nextjs app
+# nextjs-practice-session-apps
+These folders are the practiced nextjs apps
