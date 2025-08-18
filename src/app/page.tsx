@@ -1,7 +1,7 @@
 import GuideCard from "@/components/GuideCard";
 
 export const metadata = {
-  title: "SYM-home"
+  title: "Home | SYM"
 };
 
 export default function Home() {
