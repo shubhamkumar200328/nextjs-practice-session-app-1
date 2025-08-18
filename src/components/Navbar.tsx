@@ -26,6 +26,9 @@ export default function Navbar() {
         <Link href="/counter"
           className={`px-3 py-2 text-white rounded-md hover:bg-gray-700 transition ${pathname === "/counter" ? "bg-[#542e2e] font-semibold" : ""}`}
         >Counter</Link>
+        <Link href="/loadingconcept"
+          className={`px-3 py-2 text-white rounded-md hover:bg-gray-700 transition ${pathname === "/loadingconcept" ? "bg-[#542e2e] font-semibold" : ""}`}
+        >Fetch Users</Link>
       </div>
 
       <div className="space-x-4">

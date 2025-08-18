@@ -5,7 +5,7 @@ export const DynamicMetadataNamingForClientServer = () =>{
     return( 
     <> 
         <p>Count: {count}</p> 
-        <button onClick={()=>{setCount(count+1)}}>click for Increament</button> 
+        <button onClick={()=>{setCount(count+1)}} className=" bg-gray-500 rounded-md px-2 text-2xl m-5 cursor-pointer">Click for Increament</button> 
     </> 
     ) 
 }
