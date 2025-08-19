@@ -23,9 +23,9 @@ export default function Navbar() {
         <Link href="/docs"
           className={`px-3 py-2 text-white rounded-md hover:bg-gray-700 transition ${pathname === "/docs" ? "bg-[#542e2e] font-semibold" : ""}`}
         >Documentation</Link>
-        <Link href="/counter"
-          className={`px-3 py-2 text-white rounded-md hover:bg-gray-700 transition ${pathname === "/counter" ? "bg-[#542e2e] font-semibold" : ""}`}
-        >Counter</Link>
+        <Link href="/complex-dashboard"
+          className={`px-3 py-2 text-white rounded-md hover:bg-gray-700 transition ${pathname === "/complex-dashboard" ? "bg-[#542e2e] font-semibold" : ""}`}
+        >Dashboard</Link>
         <Link href="/loadingconcept"
           className={`px-3 py-2 text-white rounded-md hover:bg-gray-700 transition ${pathname === "/loadingconcept" ? "bg-[#542e2e] font-semibold" : ""}`}
         >Fetch Users</Link>
